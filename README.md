@@ -10,7 +10,7 @@ NeighbourGoods Marketplace is a hyperlocal community-driven web application deve
 - **Purchasing and Selling**: Seamless transaction functionalities for buying and selling goods.
 - **User Authentication**: Secure user login and registration system with session management.
 - **Data Security**: Bcrypt hashing for password security and CSRF protection to prevent cross-site request forgery.
-- **Wallet Feature**: Integrated wallet functionality for managing transactions within the platform.
+- **Wallet Feature**: Integrated wallet functionality for managing transactions within the platform.  
 
 ### Project Structure
 
