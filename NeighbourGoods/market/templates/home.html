@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+Home Page
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="jumbotron text-center text-white bg-dark mt-4">
+    <h1 class="display-4">Welcome to NeighbourGoods Market!</h1>
+    <p class="lead">A community-driven marketplace where you can buy and sell goods within your neighbourhood.</p>
+    <hr class="my-4">
+    <p>Join us today to start trading and connecting with your neighbours.</p>
+    <a class="btn btn-primary" href="{{ url_for('market_page') }}">Get Started</a>
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+  <img src="static/landing.jpg" class="img-fluid" alt="Responsive image">
+</div>
+{% endblock %}
